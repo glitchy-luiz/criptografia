@@ -9,7 +9,6 @@ var entrada = document.querySelector("#entrada");
 
 
 tipo.addEventListener("change", function () {
-  // muda msg do botão de enviar, conforme opção selecionada
   if (tipoRadio[0].checked) {
     enviar.textContent = "Codificar Mensagem!";
   } else {
@@ -18,7 +17,6 @@ tipo.addEventListener("change", function () {
 });
 
 passo.addEventListener("change", function () {
-  // atualiza o valor da chave
   chave = document.getElementById("chave").value;
 });
 
